@@ -1,0 +1,16 @@
+{
+  "name": "dsh-workmesh-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "dsh-workmesh 前端骨架：顶部横向主导航 + 项目总览（Vite + React + TypeScript）",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  }
+}
